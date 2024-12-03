@@ -1,0 +1,290 @@
+.body{
+    background-color:#2d2e30;
+    height:auto;
+    
+}
+.main-header{
+    padding:1px;
+    display:flex; 
+    justify-content:space-between; 
+    
+}
+.header-heading{
+    color:white;
+    font-size:25px;
+}
+.icons{
+    justify-content:space-evenly;
+    color:white;
+    position:relative;
+    top:15px;
+    margin-left:10px; 
+}
+.icon1{
+    padding-right:25px;
+}
+.icon2{
+    padding-right:25px; 
+    position:relative;
+}
+.cart-number{
+    position: absolute;
+    top:0px; 
+    left:5px; 
+    bottom:5px; 
+    align-self: center;
+    
+}
+.items-container{
+    display:flex;
+    justify-content: center;
+}
+.images-container{
+    margin-top:15px;
+    padding:10px;
+}
+.img1{
+    height:90px;
+    width:90px; 
+    border:1px solid white;
+}
+.img2{
+    height:90px;
+    width:90px; 
+    border:1px solid white;
+    opacity:40%
+}
+.descriptive-image{
+    height:600px;
+    width:450px;
+    margin-left:100px;
+    /* position:absolute;
+    top:15px; */
+}
+.jbl-item{
+    margin-top:20px;
+}
+.heading-jbl{
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+}
+.star{
+    color:red;
+    font-size:10px;
+} 
+.cost{
+    color:white;
+    font-size:25px;
+    font-weight:bold;
+}
+.cost2{
+    color:white;
+    text-decoration: line-through;
+    margin-left:10px;
+}
+.para{
+    color:green;
+}
+.para2{
+    color:white;
+    font-size:15px;
+    opacity:30%;
+}
+.button{
+    color:white;
+    background-color: green;
+    border:1px solid green;
+    margin-left:50px;
+    margin-top:25px;
+}
+.price-container{
+    display:flex;
+}
+.offers-heading{
+    color:white; 
+    font-size:17px;
+} 
+.card-para{
+    color:white;
+    font-size:12px; 
+    border:1px solid grey;
+    width: fit-content;
+    padding:2px;   
+}
+.card-para2{
+    color:white;
+    font-size:12px; 
+    border:1px solid grey;
+    width:auto;
+    padding:2px; 
+    margin-left:10px;
+
+}
+.card2{
+    display:flex;
+    margin-top:15px;
+}
+.description-container{
+    display:flex;
+    flex-direction:column;
+    margin-top:30px;
+    margin-left:30px;
+}
+.heading2:hover{
+    background-color:red;
+    border:2px solid red;
+}
+.heading-container{
+    display:flex;
+    justify-content:center;
+    margin-top:60px;    
+}
+.list-items{
+    color:white;
+    opacity:40%;
+    margin-top:20px;
+
+}
+.list-container{
+    display:flex;
+}
+.list-items2{
+    color:white;
+    opacity:40%;
+    margin-top:20px;
+    align-content: justify;
+
+}
+.list-container1{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;  
+}
+.list-items3{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 30px;
+} 
+.products-heading{
+    color:white;
+    font-size:40px;
+    display:flex;
+    justify-content: center;
+    margin-top:60px;
+}
+.items-container3{
+    margin-top:40px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding:10px;
+}
+.card1{
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border:2px solid white ;
+    width:230px;
+    align-content:center;
+    margin:10px;
+}
+.img{
+    height:160px;
+    width:160px;
+    margin-top:40px;
+    margin-left:15px;
+} 
+.star{
+    margin-top: 10px;
+    color:red;
+}
+.rating{
+    margin-top:30px;
+    font-size:10px;
+}
+.star{
+    padding-top:20px;
+} 
+.line{
+    width:200px;
+    margin-left:1px;
+    color:white;
+    opacity:30%;
+}
+.dot2{
+    display:flex;
+    justify-content: center;
+    padding-top:10px;
+}
+.Adv-heading{
+    color:white;
+    font-weight: bold;
+    text-align:center;
+    margin-top:150px;
+    font-size:30px;
+}
+.Advantages-container{
+    margin-top:80px;
+    display:flex;
+    justify-content:center;
+    align-content: center;
+}
+.Delivery{
+    display:flex;
+    padding:10px;
+    margin-left:10px;
+    margin-right:30px;
+}
+.truck{
+    color:red;
+    font-size:50px;
+    margin-bottom:8px;
+}
+.content{
+    margin-left:20px;
+}
+.footer{
+    margin-top:30px;
+    background-color: black; 
+}
+.footer-container{
+    margin-top: 30px; 
+    display:flex;
+    justify-content: center;
+    justify-content:space-between;
+    padding-left:15px;
+    padding-right:15px;
+}
+.info{
+    padding:10px;
+    margin-top:20px;
+}
+.footer-heading{
+    color:white;
+}
+.footer-paragraph{
+    color:white;
+    margin-top:10px;
+    opacity:30%; 
+}
+.list-elements{
+    margin-top: 20px;
+}
+.line3{
+    width:auto;
+    color:white;
+    font-size:40px;
+    font-weight: bold;
+}
+.bottom-container{
+    display:flex;
+    justify-content: space-between;
+}
+.icons-container{
+    margin-right:15px;
+}
+.icon{
+    padding:15px;
+} 

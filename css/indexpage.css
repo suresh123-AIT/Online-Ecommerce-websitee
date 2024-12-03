@@ -1,0 +1,382 @@
+.body{
+    background-color:#2d2e30;
+    height:auto;
+    
+}
+.main-header{
+    padding:1px;
+    display:flex; 
+    justify-content:space-between; 
+    
+}
+.header-heading{
+    color:white;
+    font-size:25px;
+}
+.icons{
+    justify-content:space-evenly;
+    color:white;
+    position:relative;
+    top:15px;
+    margin-left:10px; 
+}
+.icon1{
+    padding-right:25px;
+}
+.icon1:hover::after{
+    content:"search"; 
+    position:absolute;
+    top:30px; 
+    font-size:15px; 
+    left:15px; 
+    background-color: #343536;
+    color:white;
+    
+}
+.icon2{
+    padding-right:25px; 
+    position:relative;
+}
+.icon2:hover::after{
+    content:"cart"; 
+    position:absolute;
+    top:30px; 
+    font-size:15px; 
+    left:15px; 
+    background-color: #343536;
+    color:white;  
+}
+.icon3:hover::after{
+    content:"login"; 
+    position:absolute;
+    top:30px; 
+    font-size:15px; 
+    background-color: #343536;
+    color:white;   
+}
+
+.cart-number{
+    position: absolute;
+    top:0px; 
+    left:5px; 
+    bottom:5px; 
+    align-self: center;
+    
+}
+.body-description{
+    font-size:150px;
+    opacity: 20%;
+    position:absolute;
+    bottom:2px;
+    top:1px;
+    left:300px; 
+    z-index:1;
+    
+}
+.para{
+    color:white;
+    font-size:30px;
+}
+.product-heading{
+    color:white;
+    font-size:40px;
+}
+.discount-value{
+    color:white;
+    text-decoration: line-through;
+    opacity:30%;
+    font-size:30px;
+}
+.button{
+    border:1px solid red;
+    background-color: red;
+    color:white;
+    border-radius:3px;
+    height:40px;
+    width:120px;
+}
+.earpods_img{
+    height:250px;
+    width:270px;
+    position:absolute;
+    top:60px;
+    right:390px;
+}
+.description-container{
+    position:relative;
+    left:300px;
+    top:75px;
+    z-index: 2; 
+    /* margin-right:50px; */
+}
+.image-container{
+position:relative;
+right:50px;
+top:30px;
+}
+.home_page_container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content:space-between;
+} 
+.dot{
+margin-left:50%;
+margin-top:150px;
+}
+.featured-product{
+    font-weight: bold;
+    text-align: center;
+    padding:10px;
+    color:white;
+}
+.endu-img1{
+    height:80px;
+    width:80px;
+    padding-bottom: 15px;    
+}
+.endu-img2{
+    height:130px;
+    width:110px;
+    padding-bottom: 15px;    
+}
+.endu-img3{
+    height:200px;
+    width:180px;
+    padding-bottom: 15px;
+    margin-top: 1px; 
+    padding-top: 3px;    
+}
+.endu-img4{
+    height:110px;
+    width:120px;
+    padding-bottom: 15px;
+    margin-top: 1px; 
+    padding-top: 3px; 
+    align-self: center;   
+}
+.endu-img5{
+    height:90px;
+    width:80px;
+    padding-bottom: 15px;
+    margin-top: 1px; 
+    padding-top: 3px; 
+    align-self: center;   
+}
+.total_price{
+    text-decoration: line-through;
+    padding-left: 10px;
+}
+
+.card-item1{
+    display:flex;
+    flex-direction:column; 
+    justify-content: center;
+    padding:10px;
+    align-items: center;
+    height:230px;
+    width:190px;
+    padding-right:15px;
+    margin:10px; 
+ }
+ .card-item2{
+    display:flex;
+    flex-direction:column; 
+    justify-content: center;
+    padding:10px;
+    align-items: center;
+    height:230px;
+    width:190px;
+    padding-right:15px;
+    margin:10px;
+   
+ }
+ .card-item3{
+    display:flex;
+    flex-direction:column; 
+    justify-content: center;
+    padding:10px;
+    align-items: center;
+    height:250px;
+    width:210px;
+    padding-right:25px;
+    padding-left: 15px;
+    margin-top:5px;
+    margin:10px;
+    
+ }
+ .card-item4{
+    display:flex;
+    flex-direction:column; 
+    justify-content: center;
+    padding:10px;
+    align-items: center;
+    height:230px;
+    width:190px;
+    padding-right:20px;
+    margin:10px;
+    padding-top:20px;
+   
+ }
+ .card-item5{
+    display:flex;
+    flex-direction:column; 
+    justify-content: center;
+    padding:10px;
+    align-items: center;
+    height:200px;
+    width:190px;
+    padding-right:15px;
+    margin:10px;
+    padding-top:40px;
+   
+ }
+.items-container{
+    display:flex;
+    justify-content: center;
+    margin-top:10px;
+}
+.dot2{
+    display:flex;
+    justify-content: center;
+    padding-top:10px;
+}
+.products-heading{
+    display:flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.nav-items{
+    color:white;
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top:30px;
+    font-style:normal;
+}
+.menu:hover{
+    background-color: red;
+    border:2px solid red;
+    
+}
+.items-container2{
+    margin-top:40px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding:5px; 
+    
+
+}
+.card1{
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border:2px solid white ;
+    width:260px;
+    align-content:center;
+    margin:5px; 
+    
+}
+.img{
+    height:160px;
+    width:160px;
+    margin-top:40px;
+    margin-left:15px;
+    
+    
+    
+}
+.star{
+    margin-top: 10px;
+    color:red;
+}
+.rating{
+    margin-top:30px;
+    font-size:10px;
+}
+.star{
+    padding-top:20px;
+}
+.line{
+    width:200px;
+    margin-left:1px;
+    color:white;
+    opacity:30%;
+}
+.Advantages-container{
+    margin-top:80px;
+    display:flex;
+    justify-content:center;
+    align-content: center;
+}
+.Adv-heading{
+    color:white;
+    font-weight: bold;
+    text-align:center;
+    margin-top:150px;
+    font-size:30px;
+}
+.truck{
+    color:red;
+    font-size:50px;
+    margin-bottom:8px;
+}
+.Delivery{
+    display:flex;
+    padding:10px;
+    margin-left:10px;
+    margin-right:30px;
+}
+.content{
+    margin-left:20px;
+}
+.footer{
+    margin-top:30px;
+    background-color: black;
+}
+.footer-container{
+    margin-top: 30px; 
+    display:flex;
+    justify-content: center;
+    justify-content:space-between;
+    padding-left:15px;
+    padding-right:15px;
+}
+.info{
+    padding:10px;
+    margin-top:20px;
+}
+.footer-heading{
+    color:white; 
+
+}
+.footer-paragraph{
+    color:white;
+    margin-top:10px;
+    opacity:30%
+}
+.list-elements{
+    margin-top: 20px;
+}
+.line2{
+    width:auto;
+    color:white;
+    font-size:40px;
+    font-weight: bold;
+}
+.bottom-container{
+    display:flex;
+    justify-content: space-between;
+    
+     
+} 
+.icons-container{
+    margin-right:15px;  
+}
+.icon{
+    padding:15px
+}
+
+
+
+

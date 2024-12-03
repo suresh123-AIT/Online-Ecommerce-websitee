@@ -1,0 +1,79 @@
+.form{
+    background-color: #464746; 
+    align-content:center;
+    padding:10px; 
+    border:1px solid white;
+   
+
+}
+.login{
+    color:white;
+    margin-left:5px;
+}
+.login-div{
+    display:flex;
+    align-items: center;
+}
+.name{
+    border:2px solid white;
+    background-color:#464746;
+    color:white; 
+    margin-bottom: 20px;
+    height:30px;
+    width:250px;
+}
+.btn{
+    margin-top:10px;
+    height:30px;
+    width:250px; 
+    color:white;
+    background-color: red;
+    border-color: red;
+}
+.line{
+    width:50px;
+    text-align: start;
+}
+.form-div{
+    display:flex;
+    justify-content: center;
+    align-self: center;
+}
+.line-div{
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+}
+.facebook{
+    border:1px solid #2b52f0;
+    padding:5px;
+    color:white;
+    background-color:#2b52f0;
+    margin-right:8px;
+}
+.google{
+    border:1px solid #ed0509;
+    padding:5px;
+    color:white;
+    background-color:#ed0509;
+    margin-right:8px; 
+}
+.twitter{
+    border:1px solid #45bdbf;
+    padding:5px;
+    color:white;
+    background-color:#45bdbf;
+     
+}
+.links-div{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+} 
+.icon{
+    display:flex;
+    justify-content: space-between;
+} 
+.bg-container{
+    background-color: #464746;
+}
